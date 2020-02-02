@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="41187RagazzoGiapponese.Touchlesstorch" Publisher="CN=5EAE0C02-C998-437D-BA51-7D75E6521CDF" Version="1.0.1.0" />
+  <mp:PhoneIdentity PhoneProductId="129be4da-aa2c-4fc9-96b7-93208be7715d" PhonePublisherId="5e7820af-8179-4a0d-9962-fd3c16eb54dd" />
+  <Properties>
+    <DisplayName>Touchless torch</DisplayName>
+    <PublisherDisplayName>Ragazzo Giapponese</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="AGHost.exe" EntryPoint="MainPage.xaml">
+      <m3:VisualElements DisplayName="Touchless torch" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="A smart, elegant and minimalistic torch that is so simple to use, that doesn't require any user interaction. Just start the app and the torch is on. Quit by tapping Back or Start and the torch is off. No additional user interaction needed, redundant on/off buttons, and similar." ForegroundText="light" BackgroundColor="#464646">
+        <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AgHostSvcs.dll</Path>
+        <ActivatableClass ActivatableClassId="AgHost.BackgroundTask" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Capabilities>
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+</Package>

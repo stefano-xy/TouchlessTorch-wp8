@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchlessTorch", "TouchlessTorch\TouchlessTorch.csproj", "{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{38ED71D6-1267-4B93-939C-FD47DE7809D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{7A33A1D0-DC45-4EFF-AC3D-189A0FBF2141}"
+	ProjectSection(SolutionItems) = preProject
+		Store\AppTileIcon.png = Store\AppTileIcon.png
+		Store\MobileShot1.wxga.png = Store\MobileShot1.wxga.png
+		Store\MobileShot2.wxga.png = Store\MobileShot2.wxga.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OriginalAssets", "OriginalAssets", "{C14E50A1-4E90-4176-82B8-BA44390D0A0A}"
+	ProjectSection(SolutionItems) = preProject
+		OriginalAssets\FlipCycleTileLarge.svg = OriginalAssets\FlipCycleTileLarge.svg
+		OriginalAssets\FlipCycleTileMedium.svg = OriginalAssets\FlipCycleTileMedium.svg
+		OriginalAssets\FlipCycleTileSmall.svg = OriginalAssets\FlipCycleTileSmall.svg
+		OriginalAssets\SplashScreen.svg = OriginalAssets\SplashScreen.svg
+		OriginalAssets\Square.svg = OriginalAssets\Square.svg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|ARM.Build.0 = Debug|ARM
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|x86.ActiveCfg = Debug|x86
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|x86.Build.0 = Debug|x86
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Debug|x86.Deploy.0 = Debug|x86
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|ARM.ActiveCfg = Release|ARM
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|ARM.Build.0 = Release|ARM
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|ARM.Deploy.0 = Release|ARM
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|x86.ActiveCfg = Release|x86
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|x86.Build.0 = Release|x86
+		{129BE4DA-AA2C-4FC9-96B7-93208BE7715D}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A33A1D0-DC45-4EFF-AC3D-189A0FBF2141} = {38ED71D6-1267-4B93-939C-FD47DE7809D7}
+		{C14E50A1-4E90-4176-82B8-BA44390D0A0A} = {38ED71D6-1267-4B93-939C-FD47DE7809D7}
+	EndGlobalSection
+EndGlobal
